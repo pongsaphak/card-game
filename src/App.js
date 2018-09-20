@@ -5,7 +5,7 @@ import CharacterCard from './CharacterCard';
 const word = "Hello";
 
 class App extends Component {
-    rrender() {
+    render() {
         return (
             <div>
                 <WordCard value="hello"/>
