@@ -1,11 +1,7 @@
 .App {
   text-align: center;
   background-image: url("pun8.jpg");
-  /* background-size: cover; */
-  /* background-position: right center; */
-background-position: 50% 50%;
-/* background-position: 20px 40px; */
-  
+  background-size: cover;
 }
 
 .App-logo {
@@ -49,18 +45,18 @@ background-position: 50% 50%;
 .Number{ 
       color: red; 
     } 
-    again{ 
-          color: black; 
-          background: red; 
-          box-shadow: 0 4px 8px 0 rgba(0,150,0,1); 
-        } 
-        .status{ 
-          display: inline-block; 
-          text-align: center; 
-          width:15em;  
-          font-size: 2em; 
-          box-shadow: 0 10px 8px 0 rgba(0,0,0,1); 
-       margin: 1em; 
-        user-select: none; 
-        } 
+again{ 
+      color: black; 
+      background: red; 
+      box-shadow: 0 4px 8px 0 rgba(0,150,0,1); 
+} 
+.status{ 
+      display: inline-block; 
+      text-align: center; 
+      width:15em;  
+      font-size: 2em; 
+      box-shadow: 0 10px 8px 0 rgba(0,0,0,1); 
+      margin: 1em; 
+      user-select: none; 
+} 
       

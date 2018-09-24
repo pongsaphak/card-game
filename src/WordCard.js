@@ -46,10 +46,11 @@ const prepareStateFromWord = (given_word) => {
                       <h3>{this.state.completed? "" : "Press correctly."}</h3> 
                       <p>Round : {this.state.attemt}</p> 
                       <p>{this.state.completed? "you win" : ""}</p> 
-                      {/* <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>
-                      {/* <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>
-                      <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>
-                      <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>                      */} */}
+                      <p>{this.state.completed? "ปัญสิกรณ์ ติยะกร" : ""}</p>
+                      <p>{this.state.completed? "ฉายา : ฉลาม" : ""}</p>
+                      <p>{this.state.completed? "วันเกิด : 9 พฤศจิกายน 2543" : ""}</p>
+                      <p>{this.state.completed? "ความสามารถพิเศษ : เต้น ร้องเพลง" : ""}</p> 
+                      <p>{this.state.completed? "สีที่ชอบ : ดำ" : ""}</p>                     
                   </dir> 
 
 
