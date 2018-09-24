@@ -42,8 +42,8 @@ const prepareStateFromWord = (given_word) => {
                       ) 
                   } 
                   <dir className={className}> 
-                      <h1>{this.state.completed? "" : "You want to know what is behide?"}</h1> 
-                      <h3>{this.state.completed? "" : "Press correctly."}</h3> 
+                      <h1>{this.state.completed? "" : "Press correctly."}</h1> 
+                      <h3>{this.state.completed? "" : "Do you wanna know something?"}</h3> 
                       <p>Round : {this.state.attemt}</p> 
                       <p>{this.state.completed? "I Love Pun" : ""}</p> 
                       <p>{this.state.completed? "ปัญสิกรณ์ ติยะกร" : ""}</p>
