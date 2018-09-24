@@ -45,7 +45,7 @@ const prepareStateFromWord = (given_word) => {
                       <h1>{this.state.completed? "" : "You want to know what is behide?"}</h1> 
                       <h3>{this.state.completed? "" : "Press correctly."}</h3> 
                       <p>Round : {this.state.attemt}</p> 
-                      <p>{this.state.completed? "you win" : ""}</p> 
+                      <p>{this.state.completed? "I Love Pun" : ""}</p> 
                       <p>{this.state.completed? "ปัญสิกรณ์ ติยะกร" : ""}</p>
                       <p>{this.state.completed? "ฉายา : ฉลาม" : ""}</p>
                       <p>{this.state.completed? "วันเกิด : 9 พฤศจิกายน 2543" : ""}</p>
