@@ -55,7 +55,8 @@ again{
       display: inline-block; 
       text-align: center; 
       width:15em;  
-      font-size: 2em; 
+      font-size: 2em;
+      text-shadow: 1px 0px 2px red; 
       box-shadow: 0 10px 8px 0 rgba(0,0,0,1); 
       margin: 1em; 
       user-select: none;
