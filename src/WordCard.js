@@ -40,7 +40,9 @@ const prepareStateFromWord = (given_word) => {
                           activationHandler = {this.activationHandler}/> 
                       ) 
                   } 
-                  
+                  <p>Round : {this.state.attemt}</p> 
+                  <p>{this.state.completed? "you win" : ""}</p> 
+
               </div> 
           ) 
       } 
