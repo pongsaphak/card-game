@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  /* background-image: url("https://scontent.fbkk18-1.fna.fbcdn.net/v/t1.0-9/32405496_484031932000104_1610397145821609984_o.jpg?_nc_cat=105&oh=272b430bad941757db12828c7f091362&oe=5C272DD4"); */
+  background-image: url("pun8.jpg");
   /* background-size: cover; */
+  /* background-position: right center; */
+background-position: 50% 50%;
+/* background-position: 20px 40px; */
+  
 }
 
 .App-logo {
@@ -29,6 +33,7 @@
   width: 3em;
   font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: lightgray;
   margin: 1em;
   user-select: none;
  }
@@ -41,3 +46,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.Number{ 
+      color: red; 
+    } 
+    again{ 
+          color: black; 
+          background: red; 
+          box-shadow: 0 4px 8px 0 rgba(0,150,0,1); 
+        } 
+        .status{ 
+          display: inline-block; 
+          text-align: center; 
+          width:15em;  
+          font-size: 2em; 
+          box-shadow: 0 10px 8px 0 rgba(0,0,0,1); 
+       margin: 1em; 
+        user-select: none; 
+        } 
+      

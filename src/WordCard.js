@@ -31,7 +31,8 @@ const prepareStateFromWord = (given_word) => {
       } 
   
  
-      render(){ 
+      render(){
+        let className = `${this.state.completed ? 'status': 'again'}` 
           return( 
               <div className="App"> 
                   { 
@@ -40,8 +41,17 @@ const prepareStateFromWord = (given_word) => {
                           activationHandler = {this.activationHandler}/> 
                       ) 
                   } 
-                  <p>Round : {this.state.attemt}</p> 
-                  <p>{this.state.completed? "you win" : ""}</p> 
+                  <dir className={className}> 
+                      <h1>{this.state.completed? "" : "You want to know what is behide?"}</h1> 
+                      <h3>{this.state.completed? "" : "Press correctly."}</h3> 
+                      <p>Round : {this.state.attemt}</p> 
+                      <p>{this.state.completed? "you win" : ""}</p> 
+                      {/* <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>
+                      {/* <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>
+                      <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>
+                      <p>{this.state.completed? "BNK48 : Koisuru fortune cookie" : ""}</p>                      */} */}
+                  </dir> 
+
 
               </div> 
           ) 
